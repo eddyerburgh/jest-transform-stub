@@ -1,0 +1,1 @@
+# jest-transform-stub
