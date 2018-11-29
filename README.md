@@ -1,6 +1,6 @@
 # jest-transform-stub
 
-Jest doesn't handle non JavsaScript assets by default.
+Jest doesn't handle non JavaScript assets by default.
 
 You can use this module to avoid errors when importing non JavaScript assets.
 
