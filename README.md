@@ -12,9 +12,14 @@ npm install --save-dev jest-transform-stub
 
 In your Jest config, add 'jest-transform-stub' to handle any non JavaScript assets you want to stub:
 
-```json
-transform: {
-  "^.+\\.js$": "babel-jest",
-  ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
-},
+```js
+{
+  transform: {
+    "^.+\\.js$": "babel-jest",
+    ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+  },
+  "moduleNameMapper": {
+    ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+  }
+}
 ```
