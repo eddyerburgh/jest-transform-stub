@@ -1,5 +1,5 @@
-const something = require('./asset.png')
+const asset = require('./asset.png')
 
-test('stubs imports', () => {
-  console.log('loading');
+test('stubs imports as string', () => {
+  expect(typeof asset).toBe('string')
 })

@@ -1,5 +1,7 @@
 module.exports = {
   process: function() {
-    return ''
+    return {
+      code: 'module.exports = ""'
+    }
   }
 }
