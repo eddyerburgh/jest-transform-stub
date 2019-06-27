@@ -35,7 +35,7 @@ Jest doesn't apply transforms to node_modules by default. You can solve this by 
   "jest": {
     // ..
     "moduleNameMapper": {
-      "^.+.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+      "^.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
     }
   }
 }
